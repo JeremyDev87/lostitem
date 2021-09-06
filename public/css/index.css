@@ -1,0 +1,469 @@
+.root {
+    font-family: sans-serif;
+}
+
+.root *,
+.root *:before,
+.root *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.root .wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.root .clearfix:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.banners1 {
+    padding: 100px 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.banners1 .background {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.banners1 .header {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.banners1 .header:after {
+    content: " ";
+    display: table;
+    clear: both
+}
+
+.banners1 .header .left {
+    float: left;
+}
+
+.banners1 .header .left>.title {
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banners1 .header .left>.desc {
+    margin-left: 10px;
+}
+
+.banners1 .header .right {
+    float: right;
+}
+
+.banners1 .header .right>button {
+    border: 1px solid #ddd;
+    background: none;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.banners1 .header .right>button:hover {
+    background: #eee;
+    color: #262626;
+}
+
+.banners1 .banners {
+    margin: 0 -15px;
+}
+
+.banners1 .banners:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.banners1 .banners .banner {
+    padding: 0 15px;
+    height: 100px;
+    width: calc(100%/3);
+    float: left;
+    text-decoration: none;
+}
+
+.banners1 .banners .banner .inner {
+    padding: 25px 15px 25px 78px;
+    background: #fff;
+    position: relative;
+    border: 1px solid #aaa;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.banners1 .banners .banner .inner .img {
+    display: inline-block;
+    border-radius: 50%;
+    text-align: left;
+    height: 26px;
+    position: absolute;
+    left: 23px;
+    top: 50%;
+    margin-top: -13px;
+    width: 50px;
+}
+
+.banners1 .banners .banner .inner .title {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 7.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.banners1 .banners .banner .inner .text {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width:767px) {
+    .banners1 {
+        padding: 50px 0;
+    }
+
+    .banners1 .header .left>.desc {
+        display: none;
+    }
+
+    .banners1 .banners .banner {
+        width: 100%;
+        margin-bottom: 15px;
+        float: none;
+    }
+}
+
+.cards2 {
+    margin-bottom: 30px;
+}
+
+.cards2 .header {
+    margin-bottom: 25px;
+}
+
+.cards2 .header:after {
+    content: " ";
+    display: table;
+    clear: both
+}
+
+.cards2 .header .left {
+    float: left;
+}
+
+.cards2 .header .left>.title {
+    color: #262626;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cards2 .header .left>.desc {
+    color: #6a6a6a;
+}
+
+.cards2 .header .right {
+    float: right;
+}
+
+.cards2 .header .right>button {
+    border: 1px solid #ddd;
+    background: none;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cards2 .header .right>button:hover {
+    background: #eee;
+}
+
+.cards2>.wrapper .cards {
+    margin: 0 -15px;
+}
+
+.cards2>.wrapper .cards:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.cards2>.wrapper .cards .card {
+    float: left;
+    width: calc(100%/4);
+    margin-bottom: 15px;
+}
+
+.cards2>.wrapper .cards .card .inner1 {
+    padding: 0 15px;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .background {
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    position: relative;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .texts {
+    padding: 15px;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .texts .tag {
+    background: #146ece;
+    color: #fff;
+    font-size: 11px;
+    padding: 2.5px 5px;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .texts .title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .texts .desc {
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards2>.wrapper .cards .card .inner1 .inner2 .texts .date {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+@media(max-width:991px) {
+    .cards2 .header .left>.title {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards2 .header .left>.desc {
+        display: block;
+    }
+
+    .cards2 .header .right>button {
+        margin-top: 21px;
+    }
+
+    .cards2>.wrapper .cards .card {
+        width: 100%;
+    }
+}
+
+.cards3 {
+    margin-bottom: 30px;
+}
+
+.cards3 .header {
+    margin-bottom: 25px;
+}
+
+.cards3 .header:after {
+    content: " ";
+    display: table;
+    clear: both
+}
+
+.cards3 .header .left {
+    float: left;
+}
+
+.cards3 .header .left>.title {
+    color: #262626;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cards3 .header .left>.desc {
+    color: #6a6a6a;
+}
+
+.cards3 .header .right {
+    float: right;
+}
+
+.cards3 .header .right>button {
+    border: 1px solid #ddd;
+    background: none;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cards3 .header .right>button:hover {
+    background: #eee;
+}
+
+.cards3>.wrapper .cards {
+    margin: 0 -15px;
+}
+
+.cards3>.wrapper .cards:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.cards3>.wrapper .cards .card {
+    float: left;
+    width: calc(100%/4);
+    margin-bottom: 15px;
+}
+
+.cards3>.wrapper .cards .card .inner1 {
+    padding: 0 15px;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .background {
+    cursor: pointer;
+    display: block;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    position: relative;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .texts {
+    padding: 15px;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .texts .tag {
+    background: #146ece;
+    color: #fff;
+    font-size: 11px;
+    padding: 2.5px 5px;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .texts .title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .texts .desc {
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards3>.wrapper .cards .card .inner1 .inner2 .texts .date {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+@media(max-width:991px) {
+    .cards3 .header .left>.title {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards3 .header .left>.desc {
+        display: block;
+    }
+
+    .cards3 .header .right>button {
+        margin-top: 21px;
+    }
+
+    .cards3>.wrapper .cards .card {
+        width: 100%;
+    }
+}
+
+/* @text4 start */
+.text4 {
+    margin-bottom: 30px;
+    background: #f7f7f7;
+}
+
+.text4>.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.text4 .wrapper .text {
+    font-size: 27px;
+}
+
+.text4 .wrapper .text b {
+    color: #007bff;
+}
+
+.text4 .wrapper .count {
+    margin-top: 42px;
+}
+
+.text4 .wrapper .count .number {
+    color: #007bff;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.text4 .wrapper .count .views {
+    margin: 25px 0 10px 0;
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+/* @text4 end */

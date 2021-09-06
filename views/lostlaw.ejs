@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="css/lostlaw.css" rel="stylesheet">
+</head>
+<body>
+    <div class="root">
+        <%- include('partials/nav.ejs')  %>
+        <div class="icons1">
+            <div class="wrapper">
+                <div class="title openPara">
+                    <b>분실물</b>
+                    <span> 법령 안내 </span>
+                </div>
+                <div class="menus">
+                    <a class="item" id="itemBtn1">
+                        <span class="img">
+                            <img src="img/window1-white-50.png">
+                        </span>
+                        <span class="text selectBtn" id="btnName1">유실물법</span>
+                    </a>
+
+                    <a class="item" id="itemBtn2">
+                        <span class="img">
+                            <img src="img/window1-white-50.png">
+                        </span>
+                        <span class="text" id="btnName2">유실물법 시행령</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section class="text3" id="lawList1">
+            <div class="wrapper">
+                <div class="title openPara">
+                    <span id="test">제1조 (습득물의 조치)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 타인이 유실한 물건을 습득한 자는 이를 신속하게 유실자 또는 소유자, 그 밖에 물건회복의 청구권을 가진 자에게 반환하거나 경찰서(지구대·파출소 등 소속 경찰관서를 포함한다. 이하 같다) 또는 제주특별자치도의 자치경찰단 사무소(이하 "자치경찰단"이라 한다)에 제출하여야 한다. 다만, 법률에 따라 소유 또는 소지가 금지되거나 범행에 사용되었다고 인정되는 물건은 신속하게 경찰서 또는 자치경찰단에 제출하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ② 물건을 경찰서에 제출한 경우에는 경찰서장이, 자치경찰단에 제출한 경우에는 제주특별자치도지사가 물건을 반환받을 자에게 반환하여야 한다. 이 경우에 반환을 받을 자의 성명이나 주거를 알 수 없을 때에는 대통령령으로 정하는 바에 따라 공고하여야 한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제1조의2(유실물 정보 통합관리 등 시책의 수립)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        국가는 유실물의 반환이 쉽게 이루어질 수 있도록 유실물 정보를 통합관리하는 등 관련 시책을 수립하여야 한다.[본조신설 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제2조 (보관방법)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 경찰서장 또는 자치경찰단을 설치한 제주특별자치도지사는 보관한 물건이 멸실되거나 훼손될 우려가 있을 때 또는 보관에 과다한 비용이나 불편이 수반될 때에는 대통령령으로 정하는 방법으로 이를 매각할 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ② 매각에 드는 비용은 매각대금에서 충당한다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 매각 비용을 공제한 매각대금의 남은 금액은 습득물로 간주하여 보관한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제3조 (비용 부담)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        습득물의 보관비, 공고비(公告費), 그 밖에 필요한 비용은 물건을 반환받는 자나 물건의 소유권을 취득하여 이를 인도(引渡)받는 자가 부담하되, 「민법」 제321조부터 제328조까지의 규정을 적용한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제4조 (보상금)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        물건을 반환받는 자는 물건가액(物件價額)의 100분의 5 이상 100분의 20 이하의 범위에서 보상금(報償金)을 습득자에게 지급하여야 한다. 다만, 국가·지방자치단체와 그 밖에 대통령령으로 정하는 공공기관은 보상금을 청구할 수 없다.[전문개정 2011.5.30]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제5조 (매각한 물건의 가액)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        제2조에 따라 매각한 물건의 가액은 매각대금을 그 물건의 가액으로 한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제6조 (비용 및 보상금의 청구기한)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        제3조의 비용과 제4조의 보상금은 물건을 반환한 후 1개월이 지나면 청구할 수 없다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제7조 (습득자의 권리포기)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        습득자는 미리 신고하여 습득물에 관한 모든 권리를 포기하고 의무를 지지 아니할 수 있다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제8조 (유실자의 권리 포기)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 물건을 반환받을 자는 그 권리를 포기하고 제3조의 비용과 제4조의 보상금 지급의 의무를 지지 아니할 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ② 물건을 반환받을 각 권리자가 그 권리를 포기한 경우에는 습득자가 그 물건의 소유권을 취득한다. 다만, 습득자는 그 취득권을 포기하고 제1항의 예에 따를 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 법률에 따라 소유 또는 소지가 금지된 물건의 습득자는 소유권을 취득할 수 없다. 다만, 행정기관의 허가 또는 적법한 처분에 따라 그 소유 또는 소지가 예외적으로 허용되는 물건의 경우에는 그 습득자나 그 밖의 청구권자는 제14조에 따른 기간 내에 허가 또는 적법한 처분을 받아 소유하거나 소지할 수 있다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제9조 (습득자의 권리 상실)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        습득물이나 그 밖에 이 법의 규정을 준용하는 물건을 횡령함으로써 처벌을 받은 자 및 습득일부터 7일 이내에 제1조제1항 또는 제11조제1항의 절차를 밟지 아니한 자는 제3조의 비용과 제4조의 보상금을 받을 권리 및 습득물의 소유권을 취득할 권리를 상실한다.[전문개정 2011.5.30]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제10조 (선박, 차량, 건축물 등에서의 습득)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 관리자가 있는 선박, 차량, 건축물, 그 밖에 일반인의 통행을 금지한 구내에서 타인의 물건을 습득한 자는 그 물건을 관리자에게 인계하여야 한다
+                    </div>
+                    <div class="paragraph">
+                        ② 제1항의 경우에는 선박, 차량, 건축물 등의 점유자를 습득자로 한다. 자기가 관리하는 장소에서 타인의 물건을 습득한 경우에도 또한 같다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 이 조의 경우에 보상금은 제2항의 점유자와 실제로 물건을 습득한 자가 반씩 나누어야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ④ 「민법」 제253조에 따라 소유권을 취득하는 경우에는 제2항에 따른 습득자와 제1항에 따른 사실상의 습득자는 반씩 나누어 그 소유권을 취득한다. 이 경우 습득물은 제2항에 따른 습득자에게 인도한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제11조 (장물의 습득)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 범죄자가 놓고간 것으로 인정되는 물건을 습득한 자는 신속히 그 물건을 경찰서에 제출하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ② 제1항의 물건에 관하여는 법률에서 정하는 바에 따라 몰수할 것을 제외하고는 이 법 및 「민법」 제253조를 준용한다. 다만, 공소권이 소멸되는 날부터 6개월간 환부(還付)받는 자가 없을 때에만 습득자가 그 소유권을 취득한다.[개정 2014.1.7.]
+                    </div>
+                    <div class="paragraph">
+                        ③ 범죄수사상 필요할 때에는 경찰서장은 공소권이 소멸되는 날까지 공고를 하지 아니할 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ④ 경찰서장은 제1항에 따라 제출된 습득물이 장물(贓物)이 아니라고 판단되는 상당한 이유가 있고, 재산적 가치가 없거나 타인이 버린 것이 분명하다고 인정될 때에는 이를 습득자에게 반환할 수 있다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제12조 (준유실물)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        착오로 점유한 물건, 타인이 놓고 간 물건이나 일실(逸失)한 가축에 관하여는 이 법 및 「민법」 제253조를 준용한다. 다만, 착오로 점유한 물건에 대하여는 제3조의 비용과 제4조의 보상금을 청구할 수 없다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제13조 (매장물)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 매장물(埋藏物)에 관하여는 제10조를 제외하고는 이 법을 준용한다.
+                    </div>
+                    <div class="paragraph">
+                        ② 매장물이 「민법」 제255조에서 정하는 물건인 경우 국가는 매장물을 발견한 자와 매장물이 발견된 토지의 소유자에게 통지하여 그 가액에 상당한 금액을 반으로 나누어 국고(國庫)에서 각자에게 지급하여야 한다. 다만, 매장물을 발견한 자와 매장물이 발견된 토지의 소유자가 같을 때에는 그 전액을 지급하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 제2항의 금액에 불복하는 자는 그 통지를 받은 날부터 6개월 이내에 민사소송을 제기할 수 있다.[전문개정 2011.5.30]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제14조(수취하지 아니한 물건의 소유권 상실)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        이 법 및 「민법」 제253조, 제254조에 따라 물건의 소유권을 취득한 자가 그 취득한 날부터 3개월 이내에 물건을 경찰서 또는 자치경찰단으로부터 받아가지 아니할 때에는 그 소유권을 상실한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제15조 (수취인이 없는 물건의 귀속)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        이 법의 규정에 따라 경찰서 또는 자치경찰단이 보관한 물건으로서 교부받을 자가 없는 경우에는 그 소유권은 국고 또는 제주특별자치도의 금고에 귀속한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span>제16조 (인터넷을 통한 유실물 정보 제공)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        경찰청장은 경찰서장 및 자치경찰단장이 관리하고 있는 유실물에 관한 정보를 인터넷 홈페이지 등을 통하여 국민에게 제공하여야 한다.[전문개정 2011.5.30.]
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="text3 displayOff" id="lawList2">
+            <div class="wrapper">
+                <div class="title openPara">
+                    <span id="test">제1조(습득물의 제출)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 유실물법(이하 "법"이라 한다) 제1조제1항의 규정에 의한 습득물은 별지 제1호서식에 의한 신고서와 함께 당해 물건을 습득한 장소를 관할하는 경찰서(지구대·파출소·출장소를 포함한다. 이하 같다) 또는 제주특별자치도의 자치경찰단 사무소(이하 "자치경찰단"이라 한다)에 제출하여야 한다. 다만, 특별한 사유가 있을 때에는 습득한 장소에서 가까운 경찰서 또는 자치경찰단에 제출할 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ② 경찰서장 또는 제주특별자치도지사는 별지 제1호의2서식에 의한 보관증을 당해 습득물의 제출자에게 교부하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 제2항의 보관증을 받은 자가 이를 분실하였을 때에는 즉시 그 일시·장소 및 경위를 보관증을 교부받은 경찰서 또는 자치경찰단에 신고하여야 한다. 
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제2조 삭제 [1996·10·28]</span>
+                </div>
+                <div class="title openPara">
+                    <span id="test">제3조(습득공고 등)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 법 제1조제1항에 따라 습득물을 제출받은 경찰서장 또는 제주특별자치도지사가 제출받은 습득물을 반환받을 자를 알 수 없어 법 제1조제2항 후단에 따라 공고할 때에는 그 습득물을 제출받은 날부터 다음 각 호의 어느 하나에 해당하는 날까지 법 제16조에 따라 유실물에 관한 정보를 제공하는 인터넷 사이트에 해당 습득물에 관한 정보를 게시하여야 한다.[개정 2014.1.7.]
+                        <br/>1. 습득물의 유실자 또는 소유자, 그 밖에 물건회복의 청구권을 가진 자(이하 "청구권자"라 한다) 또는 습득자가 습득물을 찾아간 날
+                        <br/>2. 습득물이 법 제15조에 따라 국고 또는 제주특별자치도의 금고에 귀속하게 된 날
+                    </div>
+                    <div class="paragraph">
+                        ② 경찰서장 또는 제주특별자치도지사는 법 제1조제1항에 따라 습득물을 제출받은 때에는 별지 제3호서식의 관리카드에 그 내용을 기록하여 보관하거나 전자매체에 전산으로 기록하여 관리하여야 한다. [개정 2014.1.7.]
+                    </div>
+                    <div class="paragraph">
+                        ③경찰서장 또는 제주특별자치도지사는 제출받은 습득물이 특히 귀중한 물건이라고 인정되는 것은 제1항의 규정에 의한 공고와 동시에 일간신문 또는 방송으로 공고하여야 한다. [개정 2006.6.29.]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제4조(습득물의 반환)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 경찰서장 또는 제주특별자치도지사는 물건의 반환을 요구받았을 때에는 청구권자에 대하여 그 성명과 주거를 확인할 수 있는 서류를 제출하게 하거나 또는 그 유실물에 관하여 필요한 질문을 하는등 청구권자임이 틀림없다는 것을 확인한 후 기일을 지정하여 습득자와 보상금액을 협의하도록 하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ② 경찰서장 또는 제주특별자치도지사는 당해 청구권자의 성명과 주거를 별지 제5호서식에 의하여 습득자(법 제10조제2항에 규정한 점유자가 있는 경우의 점유자를 포함한다)에게 통지하여 청구권자와 보상금액에 관하여 협의하도록 하여야 한다. 다만, 습득에 관한 권리를 미리 포기하였거나 권리를 상실한 습득자에 대하여는 예외로 한다.
+                    </div>
+                    <div class="paragraph">
+                        ③ 제1항 및 제2항의 규정에 의하여 청구권자와 습득자간에 보상금에 관한 협의가 이루어지고 그 이행이 종료되면 경찰서장 또는 제주특별자치도지사는 별지 제6호서식에의한 수령증을 받고 그 습득물을 청구권자에게 반환하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ④ 법 제8조제2항의 규정에 의하여 물건의 반환을 받을 권리자가 그 권리를 포기하여 습득자가 그 소유권을 취득하는 경우에도 제3항과 같다.
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제5조(법정기간이 경과된 습득물의 조치)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 경찰서장 또는 제주특별자치도지사는 그 보관하는 습득물에 대하여 민법 제253조에 규정된 기간내에 청구권자가 나타나지 아니하여 습득자가 그 소유권을 취득하게 되었을 때에는 그 사실을 별지 제7호서식의 소유권 취득 통지서에 따라 통지하거나 전화 또는 문자 메시지로 알려 주어야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ② 삭제
+                    </div>
+                    <div class="paragraph">
+                        ③ 경찰서장 또는 제주특별자치도지사는 습득자로부터 물건의 인도를 청구받았을 때에는 별지 제6호서식에 의한 수령증을 받은 후 물건을 인도하여야 한다. 
+                    </div>
+                    <div class="paragraph">
+                        ④ 제3항의 물건을 청구할 때에는 당해 습득물의 보관증을 제출하여야 한다. 다만, 제1조제3항의 신고를 한 자는 예외로 한다.
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제6조(공공기관)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        법 제4조 단서에서 "대통령령으로 정하는 공공기관"이란 「공공기관의 운영에 관한 법률」 제4조에 따른 공공기관 및 「지방공기업법」에 따라 설립된 지방공사와 지방공단을 말한다.[전문개정 2014.1.7]
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제7조(매각)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 법 제2조제1항의 규정에 의하여 경찰서장 또는 제주특별자치도지사가 보관한 물건을 매각하고자 할 때에는 「국가를 당사자로 하는 계약에 관한 법률」 또는 「지방자치단체를 당사자로 하는 계약에 관한 법률」의 규정에 준하여 경쟁입찰에 의하여야 한다. 다만, 급속히 매각하지 아니하면 그 가치가 현저하게 감소될 염려가 있는 물건은 수의계약에 의하여 매각할 수 있다. 
+                    </div>
+                    <div class="paragraph">
+                        ② 매각공고는 당해 경찰서 또는 자치경찰단의 게시판에만 할 수 있다.
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제8조(습득금품의 보관과 예탁)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 경찰서장 또는 제주특별자치도지사는 제출받은 유실물을 경리사무담당책임자로 하여금 보관하게 하여야 한다. 
+                    </div>
+                    <div class="paragraph">
+                        ② 제1항의 경우에 습득한 현금 또는 물건을 매각한 대금은 금융기관에 예탁하여야 한다.
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제9조(습득자와 청구권자의 권리포기)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        습득자가 법 제7조의 규정에 의하여 습득자의 권리를 포기하거나 법 제8조제2항의 규정에 의하여 소유권의 취득권리를 포기하고자 할 때 또는 청구권자등이 법 제8조제1항의 규정에 의하여 물건반환청구권을 포기하고자 할 때에는 별지 제8호서식에 의한 권리포기서를 경찰서장 또는 제주특별자치도지사에게 제출하여야 한다. 
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제10조 삭제 [1996·10·28]</span>
+                </div>
+                <div class="title openPara">
+                    <span id="test">제11조(국고 또는 금고에 귀속된 습득물의 조치)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        ① 국고 또는 제주특별자치도의 금고 귀속이 확정된 현금 또는 물품은 지체없이 「국가재정법」 또는 「지방회계법」이 정하는 바에 의하여 세입조치를 하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ②법 제11조제2항에 규정된 몰수품, 민법 제255조에 규정된 학술·기예 또는 고고의 자재가 될 물건등은 지체없이 당해 물건의 소유 또는 소지에 관한 사무를 관장하거나 보존관리의 권한이 있는 행정기관(행정기관의 지방청을 포함한다)에 인도하고 인수증을 받아야 한다. 다만, 학술·기예 또는 고고의 자재가 될 물건을 인수받은 행정기관은 법 제13조제2항의 규정에 의한 보상금을 지급하여야 한다.
+                    </div>
+                    <div class="paragraph">
+                        ③국고 또는 제주특별자치도의 금고에 귀속된 물건으로서 그 재산적 가치가 적어 계속 보관의 필요성이 없거나 또는 이를 매각하려 하여도 원매자가 없을 때에는 경찰서장 또는 제주특별자치도지사가 이를 폐기하거나 사회복지단체 기타 비영리단체에 무상으로 양여할 수 있다.
+                    </div>
+                    <div class="paragraph">
+                        ④제3항의 규정에 의한 폐기처분 또는 양여는 별지 제9호서식에 의한다.
+                    </div>
+                </article>
+                <div class="title openPara">
+                    <span id="test">제12조(기간 계산)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        「민법」 제253조 및 제254조에 규정된 기간은 제3조제1항에 따라 인터넷 사이트에 게시한 날의 다음 날부터 기산(起算)한다.[전문개정 2014.1.7.]
+                    </div>
+                </article>
+            </div>
+                <div class="title openPara">
+                    <span id="test">제13조(고유식별정보의 처리)</span>
+                    <a>+</a>
+                </div>
+                <article class="divPara">
+                    <div class="paragraph">
+                        경찰청장, 지방경찰청장 및 경찰서장, 제주특별자치도지사 및 자치경찰단장은 법 및 이 영에 따른 습득물 처리에 관한 사무를 수행하기 위하여 불가피한 경우 「개인정보 보호법 시행령」 제19조에 따른 주민등록번호, 여권번호, 운전면허의 면허번호 또는 외국인등록번호가 포함된 자료를 처리할 수 있다. [본조신설 2012.1.6.]
+                    </div>
+                </article>
+            </div>
+        </section>
+        <%- include('partials/footer.ejs')  %>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/lostlaw.js"></script>
+</body>
+</html>

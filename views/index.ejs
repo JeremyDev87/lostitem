@@ -1,17 +1,101 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>MAIN VIEW</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="description" content="">
-    <meta name="author" content="KaijuThemes">
-    <link rel = "icon" href = "#">
-</head>
-<body>
-  <h1>여기에 MAIN VIEW부터 Front 코딩 시작됨.</h1>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&amp;display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+        
+        <link href="css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="root">
+            <%- include('partials/nav.ejs')  %>
+            <div nid="text4" class="text4">
+                <div class="wrapper">
+                    <div class="text">
+                        <span>이번달 접수 된</span>
+                        <b>분실물 </b>
+                        <span>중에</span>
+                    </div>
+                    <div class="count">
+                        <div class="number">214,273,881개</div>
+                        <div class="views">가 주인을 찾아갔습니다.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards2">
+                <div class="wrapper">
+                    <div class="header">
+                        <div class="left">
+                            <span class="title">분실물 조회</span>
+                            <span class="desc">접수된 분실물입니다.</span>
+                        </div>
+                        <div class="right">
+                            <button>더보기</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="inner1">
+                                <div class="inner2">
+                                    <a class="background" style="background-image:url(img/chairs-2181994_640.jpg)"></a>
+                                    <div class="texts">
+                                        <span class="tag">이천</span>
+                                        <a class="title">아이폰</a>
+                                        <div class="desc">분당선 18시 퇴근 버스에서 주웟어요.</div>
+                                        <div class="date">2021-06-17</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="inner1">
+                                <div class="inner2">
+                                    <a class="background" style="background-image:url(img/home-5835289_640.jpg)"></a>
+                                    <div class="texts">
+                                        <span class="tag">이천</span>
+                                        <a class="title">전두엽</a>
+                                        <div class="desc">잃어버린 전두엽을 주웠어요.</div>
+                                        <div class="date">2021-06-17</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="inner1">
+                                <div class="inner2">
+                                    <a class="background" style="background-image:url(img/apartment-406901_640.jpg)"></a>
+                                    <div class="texts">
+                                        <span class="tag">청주</span>
+                                        <a class="title">복근</a>
+                                        <div class="desc">잃어버린지 오래된 복근입니다..</div>
+                                        <div class="date">2021-06-17</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="inner1">
+                                <div class="inner2">
+                                    <a class="background" style="background-image:url(img/living-room-2155376_640.jpg)"></a>
+                                    <div class="texts">
+                                        <span class="tag">분당</span>
+                                        <a class="title">싸가지</a>
+                                        <div class="desc">애초에 내 것이 아닌거같기도 해요.</div>
+                                        <div class="date">2021-06-17</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/footer.ejs')  %>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
 </html>

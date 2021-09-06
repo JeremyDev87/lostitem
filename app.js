@@ -9,6 +9,13 @@ const winston = require('./routes/logger'); // winston log 설정
 
 //Route 설정
 var indexRouter = require('./routes/index'); // js 연결 설정
+var receptionRouter = require('./routes/reception'); // js 연결 설정
+var lostListRouter = require('./routes/lostList'); // js 연결 설정
+var noticeRouter = require('./routes/notice'); // js 연결 설정
+var qnaRouter = require('./routes/qna'); // js 연결 설정
+var askFindRouter = require('./routes/askFind'); // js 연결 설정
+var loginRouter = require('./routes/login'); // js 연결 설정
+var lostlawRouter = require('./routes/lostlaw'); // js 연결 설정
 var apiRouter = require('./routes/api_route'); // js 연결 설정
 
 var app = express();
@@ -38,6 +45,13 @@ app.use(session({
 
 // view-router setting
 app.use('/', indexRouter);
+app.use('/reception', receptionRouter);
+app.use('/lostlist', lostListRouter);
+app.use('/notice', noticeRouter);
+app.use('/qna', qnaRouter);
+app.use('/askFind', askFindRouter);
+app.use('/login', loginRouter);
+app.use('/lostlaw', lostlawRouter);
 app.use('/api',apiRouter); //
 app.use(function(req, res, next) {
   next(createError(404));
