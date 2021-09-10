@@ -54,12 +54,24 @@
 
 .cards2 .header .right {
     float: right;
-}
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
 
+}
+.cards2 .header .right>input {
+    border: 1px solid #ddd;
+    background: none;
+    width: 400px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-right:0.5rem;
+}
 .cards2 .header .right>button {
     border: 1px solid #ddd;
     background: none;
-    width: 100px;
+    width: 50px;
     height: 35px;
     line-height: 35px;
     font-size: 14px;
@@ -173,4 +185,37 @@
         width: 100%;
         margin-bottom: 15px;
     }
+}
+
+.pages {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages ul>li {
+    display: inline-block;
+}
+
+.pages ul>li>a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 13px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+.pages ul>li>a:hover {
+    background: #eee;
+}
+
+.pages ul>li.active>a {
+    background: #1259a7;
+    border-color: #1259a7;
+    color: #fff
 }

@@ -17,6 +17,7 @@
     padding: 0 15px;
 }
 
+
 .root .clearfix:after {
     content: " ";
     clear: both;
@@ -44,6 +45,7 @@
     cursor: pointer;
     position: relative;
     width: 105px;
+
 }
 
 .icons1 .menus .item:before {
@@ -86,6 +88,10 @@
     text-align: center;
 }
 
+.icons1 .menus {
+    text-align: center;
+}
+
 @media(max-width:991px) {
     .icons1 .menus {
         text-align: center;
@@ -98,7 +104,7 @@
 
 .form1 {
     padding: 30px 0;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
@@ -134,6 +140,7 @@
 .form1 .form .item {
     margin: 30px 0;
     padding: 0 30px;
+    width : 100%;
 }
 
 .form1 .form .item .title {
